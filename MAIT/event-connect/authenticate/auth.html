@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Signup</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <div class="signup-container">
+    <div>
+    <h1>Sign Up as a Company</h1>
+        <form id="Company">
+          <label for="companyName">Company Name:</label>
+          <input type="text" id="companyName" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" required>
+    
+          <label for="address">Company Address:</label>
+          <input id="address" required></input>
+    
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" required>
+    
+          <label for="website">Company Website:</label>
+          <input type="url" id="website">
+    
+          <button type="button" onclick="signup()">Create Company</button>
+        </form>
+        <p id="signupMessage" class="hidden">Account already exists ? <a href="login.html">Login here</a></p>
+    </div>
+    <div>
+        <h1>Sign Up as a User</h1>
+        <form id="Client">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" required>
+        
+            <label for="address">Address:</label>
+            <input id="address" required>
+        
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" required>
+        
+            <button type="button" onclick="signup()">Sign Up</button>
+          </form>
+          <p id="signupMessage" class="hidden">Account already exists ? <a href="login.html">Login here</a></p>       
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

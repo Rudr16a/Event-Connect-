@@ -1,0 +1,204 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.title {
+    font-family: cursive;
+    font-size: larger;
+    margin-right: 450px;
+}
+
+nav {
+    display: flex;
+    background-color: #18335b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(122, 33, 33, 0.1);
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+.auth-buttons {
+    display: flex;
+    
+    
+}
+
+.auth-buttons button {
+    background-color: #18335b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.auth-buttons button:hover {
+    background-color: #ffc107;
+}
+
+.main {
+    color: white;
+    background-image: url('main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96vw;
+    height: 500px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
+.featured-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.event-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card h3 {
+    color: #333;
+}
+
+.event-card p {
+    color: #666;
+    text-wrap:wrap;
+}
+.event-card img {
+    width: 250px;
+    height: 170px;
+}
+.event-card button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+
+}
+
+.event-card button:hover {
+    background-color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.slider-arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin: auto 10px;
+    display: inline-block;
+}
+
+.slider-arrow:hover {
+    color: #555;
+}
+
+.featured-events {
+    display: flex;
+    overflow: hidden;
+}
+
+.events-container {
+    display: flex;
+    white-space: nowrap;
+    transition: transform 0.5s ease-in-out;
+    overflow-x: auto;
+}
+
+.event-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block; 
+}
+
